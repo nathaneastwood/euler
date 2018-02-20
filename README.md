@@ -13,13 +13,13 @@ Status](https://travis-ci.org/nathaneastwood/euler.svg?branch=master)](https://t
 Overview
 --------
 
-The goal of euler is to offer R solutions to [Project
+The goal of `euler` is to offer R solutions to [Project
 Euler](https://projecteuler.net) problems.
 
 Installation
 ------------
 
-You can install the package directly from GitHub using the [devtools
+You can install the package directly from GitHub using the [`devtools`
 package](https://github.com/r-lib/devtools).
 
 ``` r

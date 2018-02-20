@@ -24,11 +24,11 @@ library(euler)
 
 ## Overview
 
-The goal of euler is to offer R solutions to [Project Euler](https://projecteuler.net) problems.
+The goal of `euler` is to offer R solutions to [Project Euler](https://projecteuler.net) problems.
 
 ## Installation
 
-You can install the package directly from GitHub using the [devtools package](https://github.com/r-lib/devtools).
+You can install the package directly from GitHub using the [`devtools` package](https://github.com/r-lib/devtools).
 
 ```{r installation, eval = FALSE}
 # install.packages("devtools")
