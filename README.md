@@ -2,6 +2,14 @@
 euler
 =====
 
+[![Project Status: Active - The project has reached a stable, usable
+state and is being actively
+developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/euler)](http://cran.r-project.org/package=euler)
+[![Travis-CI Build
+Status](https://travis-ci.org/nathaneastwood/euler.svg?branch=master)](https://travis-ci.org/nathaneastwood/euler)
+[![codecov](https://codecov.io/gh/nathaneastwood/euler/branch/master/graph/badge.svg)](https://codecov.io/gh/nathaneastwood/euler)
+
 Overview
 --------
 
