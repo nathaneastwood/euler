@@ -43,6 +43,6 @@ We can, for example, solve [Euler problem
       ⋮     ⋮    ⋮     ⋮    ⋮     ⋮    ⋮
 
 ``` r
-euler67(triangle)
+euler_67(triangle)
 #> [1] 7272
 ```

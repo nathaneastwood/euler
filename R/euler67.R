@@ -6,10 +6,10 @@
 #' @param triangle A lower triangle matrix
 #' 
 #' @examples
-#' euler67(triangle)
+#' euler_67(triangle)
 #' 
 #' @export
-euler67 <- function(triangle) {
+euler_67 <- function(triangle) {
   for (i in nrow(triangle):2) {
     for (j in 1:(ncol(triangle) - 1)) {
       triangle[i - 1, j] <- max(triangle[i, j:(j + 1)]) + triangle[i - 1, j]
