@@ -9,6 +9,8 @@ developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repo
 [![Travis-CI Build
 Status](https://travis-ci.org/nathaneastwood/euler.svg?branch=master)](https://travis-ci.org/nathaneastwood/euler)
 [![codecov](https://codecov.io/gh/nathaneastwood/euler/branch/master/graph/badge.svg)](https://codecov.io/gh/nathaneastwood/euler)
+[![License:
+MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Overview
 --------
