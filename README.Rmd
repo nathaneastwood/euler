@@ -9,8 +9,8 @@ output:
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>",
-  fig.path = "README-"
+  comment = "",
+  fig.path = "tools/images/README-"
 )
 library(euler)
 ```
@@ -38,19 +38,9 @@ install_github("nathaneastwood/euler")
 
 ## Useage
 
-We can, for example, solve [Euler problem 67](https://projecteuler.net/problem=67) using the following:
-
-```
-     [,1] [,2] [,3] [,4] [,5] [,6] ...
-[1,]   58    0    0    0    0    0 ...
-[2,]   73   41    0    0    0    0 ...
-[3,]   52   40    9    0    0    0 ...
-[4,]   26   53    6   34    0    0 ...
-[5,]   10   51   87   86   81    0 ...
-[6,]   61   95   66   57   25   68 ...
-  ⋮     ⋮    ⋮     ⋮    ⋮     ⋮    ⋮
-```
+We can, for example, solve [Euler problem 11](https://projecteuler.net/problem=11) using the following:
 
 ```{r example}
-euler_67(triangle)
+data_11
+euler_11(data_11)
 ```

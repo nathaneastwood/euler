@@ -1,20 +1,20 @@
-#' Euler 67
-#' 
-#' This is a solution to 
+#' Project Euler 67: Maximum path sum II
+#'
+#' This is a solution to
 #' \href{https://projecteuler.net/problem=67}{Euler problem 67}.
-#' 
-#' @param triangle A lower triangle matrix
-#' 
+#'
+#' @param data A lower triangle matrix.
+#'
 #' @examples
-#' euler_67(triangle)
-#' 
+#' euler_67(data_67)
+#'
 #' @export
-euler_67 <- function(triangle) {
-  for (i in nrow(triangle):2) {
-    for (j in 1:(ncol(triangle) - 1)) {
-      triangle[i - 1, j] <- max(triangle[i, j:(j + 1)]) + triangle[i - 1, j]
+euler_67 <- function(data) {
+  for (i in nrow(data):2) {
+    for (j in 1:(ncol(data) - 1)) {
+      data[i - 1, j] <- max(data[i, j:(j + 1)]) + data[i - 1, j]
     }
-    triangle[i, ] <- NA
+    data[i, ] <- NA
   }
-  max(triangle, na.rm = TRUE)
+  max(data, na.rm = TRUE)
 }

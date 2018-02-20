@@ -1,6 +1,6 @@
 Package: euler
 Title: Solve Project Euler Problems
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: person("Nathan", "Eastwood", email = "nathan.eastwood@icloud.com", 
   role = c("aut", "cre"))
 Description: A package to offer solutions to Project Euler problems.
