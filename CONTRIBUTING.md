@@ -1,6 +1,6 @@
 # Contributing
 
-Contributions via GitHub pull requests are gladly accepted from their original author.
+Contributions via GitHub pull requests are gladly accepted from their original author. By participating in this project, you agree to abide by the thoughtbot [code of conduct](https://thoughtbot.com/open-source-code-of-conduct).
 
 * [Licensing](#license)
 * [R Coding Standards](#r)
