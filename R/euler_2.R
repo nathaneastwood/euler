@@ -11,20 +11,16 @@
 #' @export
 euler_2 <- function(x) {
 
-  vals = c(1, 2)
+  vals <- c(1, 2)
 
-  for(i in 3:x){
-    newval = vals[i-1] + vals[i-2]
-    if(newval > x){
+  for (i in 3:x) {
+    newval <- vals[i - 1] + vals[i - 2]
+    if (newval > x) {
       break()
-    }
-    else{
-      vals = c(vals, newval)
+    } else {
+      vals <- c(vals, newval)
     }
   }
 
-  sum(vals[vals%%2==0])
-
+  sum(vals[vals %% 2 == 0])
 }
-
-
