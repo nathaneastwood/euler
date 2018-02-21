@@ -44,3 +44,7 @@ We can, for example, solve [Euler problem 11](https://projecteuler.net/problem=1
 data_11
 euler_11(data_11)
 ```
+
+## Contributing
+
+Bug reports, suggestions, and especially code contributions are welcome. Please see [CONTRIBUTING.md](https://github.com/nathaneastwood/euler/blob/master/CONTRIBUTING.md). Maintainers and contributors must follow this repository's [code of conduct](https://thoughtbot.com/open-source-code-of-conduct).

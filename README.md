@@ -82,3 +82,12 @@ data_11
 euler_11(data_11)
 [1] 70600674
 ```
+
+Contributing
+------------
+
+Bug reports, suggestions, and especially code contributions are welcome.
+Please see
+[CONTRIBUTING.md](https://github.com/nathaneastwood/euler/blob/master/CONTRIBUTING.md).
+Maintainers and contributors must follow this repository’s [code of
+conduct](https://thoughtbot.com/open-source-code-of-conduct).
