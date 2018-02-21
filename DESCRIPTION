@@ -5,7 +5,7 @@ Authors@R: person("Nathan", "Eastwood", email = "nathan.eastwood@icloud.com",
   role = c("aut", "cre"))
 Description: A package to offer solutions to Project Euler problems.
 Depends: R (>= 3.4.2)
-License: MIT + file LICENSE
+License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
