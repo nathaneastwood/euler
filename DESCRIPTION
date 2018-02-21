@@ -6,11 +6,14 @@ Authors@R: c(
   person("Nic", "Crane", role = "ctb")
   )
 Description: A package to offer solutions to Project Euler problems.
-Depends: R (>= 3.4.2)
+URL: https://github.com/nathaneastwood/euler
+BugReports: https://github.com/nathaneastwood/euler/issues
+Depends: 
+  R (>= 3.4.2)
 License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
 Suggests: 
-    testthat,
-    covr
+  testthat,
+  covr
