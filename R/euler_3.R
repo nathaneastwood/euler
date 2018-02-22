@@ -9,28 +9,23 @@
 #' euler_3(600851475143)
 #'
 #' @export
-euler_4 <- function(x) {
+euler_3 <- function(x) {
 
-  palindrome = NULL
-  for(i in 999:101){
-    for(j in 999:101){
-      num = as.character(i*j)
-      mid = round((nchar(num)/2)-0.1)
-      first_half = substr(num, 1, mid)
+  factors = find_factors(x)
 
-      second_half = substr(num, (nchar(num)-mid)+1, nchar(num))
-      second_half_reversed = paste(rev(strsplit(second_half, "")[[1]]), collapse="")
+  prime_factors = NULL
 
-      if(first_half == second_half_reversed){
-        palindrome = c(num, palindrome)
-        break()
+  for(i in seq_along(factors)){
 
-      }
+    if(is_prime(factors[[i]][1])){
+      prime_factors = c(prime_factors, factors[[i]][1])
+    }
 
-
+    if(is_prime(factors[[i]][2])){
+      prime_factors = c(prime_factors, factors[[i]][2])
     }
   }
 
-  max(palindrome)
+  max(prime_factors)
 
 }
