@@ -1,34 +1,18 @@
-#' Project Euler 4: Largest prime factor
+#' Project Euler 5: Smallest multiple
 #'
 #' This is a solution to
-#' \href{https://projecteuler.net/problem=4}{Euler problem 4}.
+#' \href{https://projecteuler.net/problem=5}{Euler problem 5}.
 #'
 #' @examples
-#' euler_4()
+#' euler_5()
 #'
 #' @export
-euler_4 <- function(x) {
+euler_5 <- function() {
 
-  palindrome = NULL
-  for(i in 999:101){
-    for(j in 999:101){
-      num = as.character(i*j)
-      mid = round((nchar(num)/2)-0.1)
-      first_half = substr(num, 1, mid)
+  #
 
-      second_half = substr(num, (nchar(num)-mid)+1, nchar(num))
-      second_half_reversed = paste(rev(strsplit(second_half, "")[[1]]), collapse="")
+  #  2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 
-      if(first_half == second_half_reversed){
-        palindrome = c(num, palindrome)
-        break()
-
-      }
-
-
-    }
-  }
-
-  max(as.numeric(palindrome))
+  #  What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
 }
