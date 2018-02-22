@@ -6,7 +6,7 @@
 #' @param x N digits
 #'
 #' @examples
-#' euler_4(600851475143)
+#' euler_4(3)
 #'
 #' @export
 euler_4 <- function(x) {
