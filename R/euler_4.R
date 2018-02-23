@@ -33,7 +33,6 @@ euler_4 <- function(x) {
 
       }
 
-
     }
   }
 
