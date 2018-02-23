@@ -3,4 +3,6 @@
 export(euler_1)
 export(euler_11)
 export(euler_2)
+export(euler_3)
+export(euler_4)
 export(euler_67)

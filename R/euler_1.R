@@ -10,6 +10,8 @@
 #'
 #' @export
 euler_1 <- function(x) {
+
   vals <- 1:(x - 1)
   sum(vals[vals %% 3 == 0 | vals %% 5 == 0])
+
 }
