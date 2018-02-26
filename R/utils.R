@@ -8,8 +8,8 @@ find_factors <- function(x){
 
   factors <- list()
 
-  for(i in 1:sqrt(x)){
-    if(x %% i == 0){
+  for (i in 1:sqrt(x)) {
+    if (x %% i == 0) {
       factors[[length(factors) + 1]] <- c(i, x / i)
     }
   }
