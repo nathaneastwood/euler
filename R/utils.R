@@ -6,11 +6,11 @@
 #' euler:::find_factors(1000)
 find_factors <- function(x){
 
-  factors = list()
+  factors <- list()
 
   for(i in 1:sqrt(x)){
-    if(x%%i==0){
-      factors[[length(factors)+1]] = c(i, x/i)
+    if(x %% i == 0){
+      factors[[length(factors) + 1]] <- c(i, x / i)
     }
   }
 
@@ -23,12 +23,11 @@ find_factors <- function(x){
 #' @param x Value to test
 #' @examples
 #' euler:::is_prime(39)
-is_prime = function(x){
-  factors = find_factors(x)
-  if(length(factors)==1){
+is_prime <- function(x) {
+  factors <- find_factors(x)
+  if (length(factors) == 1) {
     TRUE
   } else {
     FALSE
   }
-
 }
