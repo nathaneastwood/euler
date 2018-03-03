@@ -18,16 +18,9 @@ find_factors <- function(x){
 
 }
 
-#' Test if a number is prime
+#' Work out if a number is a prime number
 #'
-#' @param x Value to test
-#' @examples
-#' euler:::is_prime(39)
-is_prime <- function(x) {
-  factors <- find_factors(x)
-  if (length(factors) == 1) {
-    TRUE
-  } else {
-    FALSE
-  }
+#' @param n An integer.
+is_prime <- function(n){
+  n == 2L || all(n %% 2L:max(2, floor(sqrt(n))) != 0)
 }

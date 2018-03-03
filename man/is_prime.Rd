@@ -2,16 +2,13 @@
 % Please edit documentation in R/utils.R
 \name{is_prime}
 \alias{is_prime}
-\title{Test if a number is prime}
+\title{Work out if a number is a prime number}
 \usage{
-is_prime(x)
+is_prime(n)
 }
 \arguments{
-\item{x}{Value to test}
+\item{n}{An integer.}
 }
 \description{
-Test if a number is prime
-}
-\examples{
-euler:::is_prime(39)
+Work out if a number is a prime number
 }
