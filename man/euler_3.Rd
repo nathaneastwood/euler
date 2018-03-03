@@ -7,7 +7,7 @@
 euler_3(x)
 }
 \arguments{
-\item{x}{Value}
+\item{x}{A number of interest to find the largest prime factor of.}
 }
 \description{
 This is a solution to
