@@ -28,6 +28,7 @@ euler_4 <- function(x) {
         palindrome = c(num, palindrome)
         break()
       }
+
     }
   }
 
