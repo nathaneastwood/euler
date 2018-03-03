@@ -59,7 +59,10 @@ This package currently offers solutions to the following Euler problems:
 -   [Problem 4](https://projecteuler.net/problem=4)
 -   [Problem 5](https://projecteuler.net/problem=5)
 -   [Problem 6](https://projecteuler.net/problem=6)
+-   [Problem 7](https://projecteuler.net/problem=7)
 -   [Problem 11](https://projecteuler.net/problem=11)
+-   [Problem 13](https://projecteuler.net/problem=13)
+-   [Problem 18](https://projecteuler.net/problem=18)
 -   [Problem 67](https://projecteuler.net/problem=67)
 
 Contributing
