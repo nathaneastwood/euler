@@ -1,3 +1,10 @@
+#' Vector of integers for the Euler problem 8
+#'
+#' @format A \code{vector} consisting of 1000 \code{integer}s
+#'
+#' @source \url{https://projecteuler.net/problem=11}
+"data_8"
+
 #' Matrix of integers for the Euler problem 11
 #'
 #' @format A \code{matrix} consisting of 20 rows and 20 columns
