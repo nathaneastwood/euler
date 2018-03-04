@@ -47,3 +47,9 @@ test_that("Test Euclid's formula", {
   expect_equal(euclid(2, 1), euclid_expected)
   expect_equal(euclid(2, 1, 3), euclid_expected_k)
 })
+
+test_that("Test the Sieve of Eratosthenes", {
+  expect_equal(esieve(1), NULL)
+  expect_equal(esieve(2), 2L)
+  expect_equal(esieve(10), c(2L, 3L, 5L, 7L))
+})
