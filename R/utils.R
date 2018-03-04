@@ -24,6 +24,29 @@ find_factors <- function(x){
 is_prime <- function(n){
   n == 2L || all(n %% 2L:max(2, floor(sqrt(n))) != 0)
 }
+#' Find triangle numbers
+#'
+#' @param x How many triangle numbers to find
+#' @examples
+#' euler:::triangle(10)
+triangle <- function(x){
+
+  vals <- seq(from = 1, to = x)
+  cumsum(vals)
+
+}
+
+#' Count all factors of a number
+#'
+#' @param x Value to count factors of
+#' @examples
+#' euler:::count_factors(1000)
+count_factors <- function(x){
+
+  factors = unlist(find_factors(x))
+  length(unique(factors))
+
+}
 
 #' Generate Pythagorean triples using Euclid's formula
 #'

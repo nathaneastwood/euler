@@ -2,6 +2,7 @@
 
 export(euler_1)
 export(euler_11)
+export(euler_12)
 export(euler_13)
 export(euler_18)
 export(euler_2)
