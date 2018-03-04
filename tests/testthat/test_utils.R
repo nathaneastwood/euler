@@ -41,6 +41,9 @@ test_that("count_factors counts factors", {
 })
 
 test_that("Test Euclid's formula", {
+  expect_error(euclid(1, 2), "m must be greater than n")
+  expect_error(euclid(0, 1), "m and n must be > 0")
+  expect_error(euclid(2, 0), "m and n must be > 0")
   expect_equal(euclid(2, 1), euclid_expected)
   expect_equal(euclid(2, 1, 3), euclid_expected_k)
 })
