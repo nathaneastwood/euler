@@ -1,6 +1,6 @@
 Package: euler
 Title: Solve Project Euler Problems
-Version: 0.0.7
+Version: 0.0.8
 Authors@R: c(
   person("Nathan", "Eastwood", , "nathan.eastwood@icloud.com", c("aut", "cre")),
   person("Nic", "Crane", role = "ctb")
