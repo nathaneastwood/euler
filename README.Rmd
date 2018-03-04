@@ -2,6 +2,8 @@
 output:
   md_document:
     variant: markdown_github
+    includes:
+      css: README.css
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -55,8 +57,8 @@ euler_4(3)
 This package currently offers solutions to the following Euler problems:
 
 <details>
-  <summary>Click to expand</summary>
-  
+<summary>Click to expand</summary>
+
 * [Problem 1](https://projecteuler.net/problem=1)
 * [Problem 2](https://projecteuler.net/problem=2)
 * [Problem 3](https://projecteuler.net/problem=3)
@@ -69,8 +71,7 @@ This package currently offers solutions to the following Euler problems:
 * [Problem 13](https://projecteuler.net/problem=13)
 * [Problem 18](https://projecteuler.net/problem=18)
 * [Problem 67](https://projecteuler.net/problem=67)
-
-</details>
+</details><break>
 
 ## Contributing
 
