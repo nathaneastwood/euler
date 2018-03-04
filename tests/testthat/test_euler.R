@@ -43,7 +43,7 @@ test_that("Test Euler problem 11", {
 })
 
 test_that("Test Euler problem 12", {
-  expect_equal(euler_12(500), 76576500L)
+  expect_equal(euler_12(50), 25200L)
 })
 
 test_that("Test Euler problem 13", {

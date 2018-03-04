@@ -6,7 +6,7 @@
 #' @param x A number of interest to find the first triangle number with that many divisors.
 #'
 #' @examples
-#' euler_12(100)
+#' euler_12(10)
 #'
 #' @export
 euler_12 <- function(x) {
