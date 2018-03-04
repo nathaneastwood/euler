@@ -14,6 +14,6 @@ This is a solution to
 \href{https://projecteuler.net/problem=12}{Euler problem 12}.
 }
 \examples{
-euler_12(100)
+euler_12(10)
 
 }
