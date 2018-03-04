@@ -24,6 +24,7 @@ find_factors <- function(x){
 is_prime <- function(n){
   n == 2L || all(n %% 2L:max(2, floor(sqrt(n))) != 0)
 }
+
 #' Find triangle numbers
 #'
 #' @param x How many triangle numbers to find

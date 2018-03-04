@@ -2,14 +2,16 @@ context("Test utility functions")
 
 test_that("find_factors returns a list of factors", {
 
-  expected_result <- list(c(1, 1000),
-                          c(2, 500),
-                          c(4, 250),
-                          c(5, 200),
-                          c(8, 125),
-                          c(10, 100),
-                          c(20, 50),
-                          c(25, 40))
+  expected_result <- list(
+    c(1, 1000),
+    c(2, 500),
+    c(4, 250),
+    c(5, 200),
+    c(8, 125),
+    c(10, 100),
+    c(20, 50),
+    c(25, 40)
+  )
 
   expect_equal(find_factors(1000), expected_result)
 })
