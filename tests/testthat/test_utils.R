@@ -37,3 +37,8 @@ test_that("count_factors counts factors", {
   expect_equal(count_factors(1000), 16)
 
 })
+
+test_that("Test Euclid's formula", {
+  expect_equal(euclid(2, 1), euclid_expected)
+  expect_equal(euclid(2, 1, 3), euclid_expected_k)
+})
