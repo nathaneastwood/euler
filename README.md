@@ -1,6 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-euler
-=====
+euler <img src="inst/figures/euler.png" align="right" height="139" width="120" />
+=================================================================================
 
 [![Project Status: Active - The project has reached a stable, usable
 state and is being actively
