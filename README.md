@@ -75,6 +75,31 @@ This package currently offers solutions to the following Euler problems:
 </details>
 <break>
 
+Explaining Methodology
+----------------------
+
+You will notice that our code has minimal comments and that we haven’t
+provided any detail to how we came up with our solutions. We believe
+that in doing so, we would be taking away the fun for others. We came to
+this decision because of the nature of Project Euler. Take this excerpt
+from there website.
+
+> I learned so much solving problem XXX so is it okay to publish my
+> solution elsewhere?
+>
+> It appears that you have answered your own question. There is nothing
+> quite like that “Aha!” moment when you finally beat a problem which
+> you have been working on for some time. It is often through the best
+> of intentions in wishing to share our insights so that others can
+> enjoy that moment too. Sadly, however, that will not be the case for
+> your readers. Real learning is an active process and seeing how it is
+> done is a long way from experiencing that epiphany of discovery.
+> Please do not deny others what you have so richly valued yourself.
+
+We do, however, plan on writing about more general content aimed at
+solving maths problems (e.g. efficient code solutions for finding
+primes) in R, if not linked to specific problems.
+
 Contributing
 ------------
 
