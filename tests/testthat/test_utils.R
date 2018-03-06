@@ -53,3 +53,10 @@ test_that("Test the Sieve of Eratosthenes", {
   expect_equal(esieve(2), 2L)
   expect_equal(esieve(10), c(2L, 3L, 5L, 7L))
 })
+
+test_that("is_palindrome checks for palindromes", {
+  expect_true(is_palindrome(1001))
+  expect_true(is_palindrome(0))
+  expect_false(is_palindrome(-1))
+  expect_false(is_palindrome(10))
+})
