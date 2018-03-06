@@ -1,6 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-euler
-=====
+euler <img src="inst/figures/euler.png" align="right" height="139" width="120" />
+=================================================================================
 
 [![Project Status: Active - The project has reached a stable, usable
 state and is being actively
@@ -33,55 +33,72 @@ Useage
 ------
 
 We can, for example, solve [Euler problem
-11](https://projecteuler.net/problem=11) using the following:
+3](https://projecteuler.net/problem=3) using the following:
 
 ``` r
-data_11
-      [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10] [,11] [,12] [,13]
- [1,]    8    2   22   97   38   15    0   40    0    75     4     5     7
- [2,]   49   49   99   40   17   81   18   57   60    87    17    40    98
- [3,]   81   49   31   73   55   79   14   29   93    71    40    67    53
- [4,]   52   70   95   23    4   60   11   42   69    24    68    56     1
- [5,]   22   31   16   71   51   67   63   89   41    92    36    54    22
- [6,]   24   47   32   60   99    3   45    2   44    75    33    53    78
- [7,]   32   98   81   28   64   23   67   10   26    38    40    67    59
- [8,]   67   26   20   68    2   62   12   20   95    63    94    39    63
- [9,]   24   55   58    5   66   73   99   26   97    17    78    78    96
-[10,]   21   36   23    9   75    0   76   44   20    45    35    14     0
-[11,]   78   17   53   28   22   75   31   67   15    94     3    80     4
-[12,]   16   39    5   42   96   35   31   47   55    58    88    24     0
-[13,]   86   56    0   48   35   71   89    7    5    44    44    37    44
-[14,]   19   80   81   68    5   94   47   69   28    73    92    13    86
-[15,]    4   52    8   83   97   35   99   16    7    97    57    32    16
-[16,]   88   36   68   87   57   62   20   72    3    46    33    67    46
-[17,]    4   42   16   73   38   25   39   11   24    94    72    18     8
-[18,]   20   69   36   41   72   30   23   88   34    62    99    69    82
-[19,]   20   73   35   29   78   31   90    1   74    31    49    71    48
-[20,]    1   70   54   71   83   51   54   69   16    92    33    48    61
-      [,14] [,15] [,16] [,17] [,18] [,19] [,20]
- [1,]    78    52    12    50    77    91     8
- [2,]    43    69    48     4    56    62     0
- [3,]    88    30     3    49    13    36    65
- [4,]    32    56    71    37     2    36    91
- [5,]    40    40    28    66    33    13    80
- [6,]    36    84    20    35    17    12    50
- [7,]    54    70    66    18    38    64    70
- [8,]     8    40    91    66    49    94    21
- [9,]    83    14    88    34    89    63    72
-[10,]    61    33    97    34    31    33    95
-[11,]    62    16    14     9    53    56    92
-[12,]    17    54    24    36    29    85    57
-[13,]    60    21    58    51    54    17    58
-[14,]    52    17    77     4    89    55    40
-[15,]    26    26    79    33    27    98    66
-[16,]    55    12    32    63    93    53    69
-[17,]    46    29    32    40    62    76    36
-[18,]    67    59    85    74     4    36    16
-[19,]    86    81    16    23    57     5    54
-[20,]    43    52     1    89    19    67    48
-euler_11(data_11)
-[1] 70600674
+euler_3(600851475143)
+[1] 6857
 ```
+
+Or we could solve [Euler problem 4](https://projecteuler.net/problem=4)
+using the following:
+
+``` r
+euler_4(3)
+[1] 906609
+```
+
+Problems solved so far
+----------------------
+
+This package currently offers solutions to the following Euler problems:
+
+<details>
+<summary>Click to expand</summary>
+
+-   [Problem 1](https://projecteuler.net/problem=1)
+-   [Problem 2](https://projecteuler.net/problem=2)
+-   [Problem 3](https://projecteuler.net/problem=3)
+-   [Problem 4](https://projecteuler.net/problem=4)
+-   [Problem 5](https://projecteuler.net/problem=5)
+-   [Problem 6](https://projecteuler.net/problem=6)
+-   [Problem 7](https://projecteuler.net/problem=7)
+-   [Problem 8](https://projecteuler.net/problem=8)
+-   [Problem 9](https://projecteuler.net/problem=9)
+-   [Problem 10](https://projecteuler.net/problem=10)
+-   [Problem 11](https://projecteuler.net/problem=11)
+-   [Problem 12](https://projecteuler.net/problem=12)
+-   [Problem 13](https://projecteuler.net/problem=13)
+-   [Problem 18](https://projecteuler.net/problem=18)
+-   [Problem 67](https://projecteuler.net/problem=67)
+
+</details>
+<break>
+
+Explaining Methodology
+----------------------
+
+You will notice that our code has minimal comments and that we haven’t
+provided any detail to how we came up with our solutions. We believe
+that in doing so, we would be taking away the fun for others. We came to
+this decision because of the nature of Project Euler. Take this excerpt
+from there website.
+
+> I learned so much solving problem XXX so is it okay to publish my
+> solution elsewhere?
+>
+> It appears that you have answered your own question. There is nothing
+> quite like that “Aha!” moment when you finally beat a problem which
+> you have been working on for some time. It is often through the best
+> of intentions in wishing to share our insights so that others can
+> enjoy that moment too. Sadly, however, that will not be the case for
+> your readers. Real learning is an active process and seeing how it is
+> done is a long way from experiencing that epiphany of discovery.
+> Please do not deny others what you have so richly valued yourself.
+
+We do, however, plan on writing about more general content aimed at
+solving maths problems (e.g. efficient code solutions for finding
+primes) in R, if not linked to specific problems.
 
 Contributing
 ------------

@@ -7,7 +7,8 @@
 euler_4(x)
 }
 \arguments{
-\item{x}{N digits}
+\item{x}{Find the largest palindrome made from the product of two \code{x}-
+digit numbers.}
 }
 \description{
 This is a solution to
