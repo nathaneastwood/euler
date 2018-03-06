@@ -110,3 +110,20 @@ esieve <- function(n) {
   }
   l
 }
+
+
+#' Check if a number is a palindrome, i.e. it remains the same
+#' whether read from left to right or right to left.
+#'
+#' @param x a numeric value
+#'
+#' @return TRUE if it is a palindrome, FALSE otherwise
+#' @export
+#'
+#' @examples
+#' is_palindrome(1001)
+is_palindrome <- function(x){
+  char_x <- as.character(x)
+  vector_x <- unlist(strsplit(char_x, split=""))
+  all(vector_x == rev(vector_x))
+}
