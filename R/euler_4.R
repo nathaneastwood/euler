@@ -14,24 +14,19 @@ euler_4 <- function(x) {
 
   max_val <- (10 ^ x) - 1
   min_val <- (10 ^ (x - 1)) + 1
-  palindrome <- NULL
 
-  for (i in max_val:min_val) {
-    for (j in max_val:min_val) {
-      num <- as.character(i * j)
-      mid <- round((nchar(num) / 2) - 0.1)
-      first_half <- substr(num, 1, mid)
-      second_half <- substr(num, (nchar(num) - mid) + 1, nchar(num))
-      second_half_reversed = paste(rev(strsplit(second_half, "")[[1]]),
-                                   collapse = "")
-      if (first_half == second_half_reversed) {
-        palindrome = c(num, palindrome)
-        break()
-      }
-
+  digits <- seq(from=min_val, to=max_val)
+  # generate all possible values
+  possibles <- digits %*% t(digits)
+  possibles <- as.vector(possibles[upper.tri(possibles)])
+  # sort them from high to low
+  possibles <- possibles[order(possibles, decreasing = TRUE)]
+  # loop through all values until you find the palindrome
+  for(i in seq_len(length(possibles))){
+    if(is_palindrome(possibles[i])){
+      return(possibles[i])
     }
   }
-
-  max(as.numeric(palindrome))
+  return(NA)
 
 }
