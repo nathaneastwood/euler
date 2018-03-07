@@ -14,12 +14,12 @@ euler_12 <- function(x) {
   max_factors <- 0
   val <- 1
 
-  while(max_factors < x){
+  while (max_factors < x) {
 
     target_num <- triangle(val)[val]
 
     factors <- unique(unlist(find_factors(target_num)))
-    if(length(factors) > max_factors){
+    if (length(factors) > max_factors) {
       max_factors <- length(factors)
     }
     val <- val + 1

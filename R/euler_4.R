@@ -22,11 +22,11 @@ euler_4 <- function(x) {
       mid <- round((nchar(num) / 2) - 0.1)
       first_half <- substr(num, 1, mid)
       second_half <- substr(num, (nchar(num) - mid) + 1, nchar(num))
-      second_half_reversed = paste(rev(strsplit(second_half, "")[[1]]),
+      second_half_reversed <- paste(rev(strsplit(second_half, "")[[1]]),
                                    collapse = "")
       if (first_half == second_half_reversed) {
-        palindrome = c(num, palindrome)
-        break()
+        palindrome <- c(num, palindrome)
+        break ()
       }
 
     }

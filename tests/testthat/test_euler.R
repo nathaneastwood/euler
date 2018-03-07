@@ -60,4 +60,3 @@ test_that("Test Euler problems 18 and 67", {
   expect_equal(euler_67(data_67_test), 23L)
   expect_equal(euler_67(data_67), 7273L)
 })
-

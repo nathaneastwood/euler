@@ -13,7 +13,7 @@
 euler_7 <- function(n) {
   x <- 2
   primes <- NA
-  while((length(primes) - 1) < n) {
+  while ((length(primes) - 1) < n) {
     if (is_prime(x)) {
       primes <- c(primes, x)
       x <- x + 1

@@ -44,7 +44,7 @@ triangle <- function(x){
 #' euler:::count_factors(1000)
 count_factors <- function(x){
 
-  factors = unlist(find_factors(x))
+  factors <- unlist(find_factors(x))
   length(unique(factors))
 
 }
