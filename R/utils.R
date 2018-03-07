@@ -65,7 +65,7 @@ count_factors <- function(x){
 #'
 #' @examples
 #' euler:::euclid(2, 1)
-euclid <- function (m, n, k = 1) {
+euclid <- function(m, n, k = 1) {
   if (m <= 0 | n <= 0) {
     stop("m and n must be > 0")
   }
