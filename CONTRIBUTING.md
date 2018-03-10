@@ -12,7 +12,7 @@ Along with any pull requests, please state that the contribution is your origina
 
 ## <a name="r"></a> R Coding Standards
 
-We follow the style guide maintained within the [tidyverse](http://style.tidyverse.org).
+We follow the style guide maintained within the [tidyverse](http://style.tidyverse.org). This is tested using the [`lintr`](https://github.com/jimhester/lintr) package.
 
 ## <a name="git"></a> git Commit Standards
 

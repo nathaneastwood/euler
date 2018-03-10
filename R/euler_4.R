@@ -14,7 +14,7 @@ euler_4 <- function(x) {
 
   max_val <- (10 ^ x) - 1
   min_val <- (10 ^ (x - 1)) + 1
-
+  
   digits <- seq(from=min_val, to=max_val)
   # generate all possible values
   possibles <- digits %*% t(digits)
