@@ -122,6 +122,6 @@ esieve <- function(n) {
 #' euler:::is_palindrome(1001)
 is_palindrome <- function(x){
   char_x <- as.character(x)
-  vector_x <- unlist(strsplit(char_x, split=""))
+  vector_x <- unlist(strsplit(char_x, split = ""))
   all(vector_x == rev(vector_x))
 }
