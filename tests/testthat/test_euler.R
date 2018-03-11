@@ -14,6 +14,7 @@ test_that("Test Euler problem 3", {
 
 test_that("Test Euler problem 4", {
   expect_equal(euler_4(3), 906609)
+  expect_equal(euler_4(0), NA)
 })
 
 test_that("Test Euler problem 5", {
