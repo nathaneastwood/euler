@@ -4,8 +4,7 @@
 #' @return List of vectors of factor pairs
 #' @examples
 #' euler:::find_factors(1000)
-find_factors <- function(x){
-
+find_factors <- function(x) {
   factors <- list()
 
   for (i in 1:sqrt(x)) {
@@ -15,13 +14,12 @@ find_factors <- function(x){
   }
 
   factors
-
 }
 
 #' Work out if a number is a prime number
 #'
 #' @param n An integer.
-is_prime <- function(n){
+is_prime <- function(n) {
   n == 2L || all(n %% 2L:max(2, floor(sqrt(n))) != 0)
 }
 
@@ -30,11 +28,9 @@ is_prime <- function(n){
 #' @param x How many triangle numbers to find
 #' @examples
 #' euler:::triangle(10)
-triangle <- function(x){
-
+triangle <- function(x) {
   vals <- seq(from = 1, to = x)
   cumsum(vals)
-
 }
 
 #' Count all factors of a number
@@ -42,11 +38,9 @@ triangle <- function(x){
 #' @param x Value to count factors of
 #' @examples
 #' euler:::count_factors(1000)
-count_factors <- function(x){
-
+count_factors <- function(x) {
   factors <- unlist(find_factors(x))
   length(unique(factors))
-
 }
 
 #' Generate Pythagorean triples using Euclid's formula
@@ -73,9 +67,9 @@ euclid <- function(m, n, k = 1) {
     stop("m must be greater than n")
   }
   list(
-    a = k * (m ^ 2 - n ^ 2),
+    a = k * (m^2 - n^2),
     b = k * (2 * m * n),
-    c = k * (m ^ 2 + n ^ 2)
+    c = k * (m^2 + n^2)
   )
 }
 
@@ -99,7 +93,7 @@ esieve <- function(n) {
   i <- 1
   # Select p as the first prime number in the list, p = 2.
   p <- 2
-  while (p ^ 2 <= n) {
+  while (p^2 <= n) {
     # Remove all multiples of p from the l.
     l <- l[l == p | l %% p != 0]
     # set p equal to the next integer in l which has not been removed.
@@ -120,7 +114,7 @@ esieve <- function(n) {
 #'
 #' @examples
 #' euler:::is_palindrome(1001)
-is_palindrome <- function(x){
+is_palindrome <- function(x) {
   char_x <- as.character(x)
   vector_x <- unlist(strsplit(char_x, split = ""))
   all(vector_x == rev(vector_x))

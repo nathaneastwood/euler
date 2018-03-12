@@ -10,13 +10,11 @@
 #'
 #' @export
 euler_3 <- function(x) {
-
   factors <- find_factors(x)
 
   prime_factors <- NULL
 
   for (i in seq_along(factors)) {
-
     if (is_prime(factors[[i]][1])) {
       prime_factors <- c(prime_factors, factors[[i]][1])
     }
@@ -27,5 +25,4 @@ euler_3 <- function(x) {
   }
 
   max(prime_factors)
-
 }

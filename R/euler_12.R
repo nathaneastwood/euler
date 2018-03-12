@@ -11,12 +11,10 @@
 #'
 #' @export
 euler_12 <- function(x) {
-
   max_factors <- 0
   val <- 1
 
   while (max_factors < x) {
-
     target_num <- triangle(val)[val]
 
     factors <- unique(unlist(find_factors(target_num)))
@@ -27,5 +25,4 @@ euler_12 <- function(x) {
   }
 
   target_num
-
 }

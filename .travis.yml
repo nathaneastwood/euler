@@ -8,6 +8,8 @@ r_packages:
 r_github_packages:
   - jimhester/lintr
 
+env:
+  - LINTR_COMMENT_BOT=false
+
 after_success:
   - Rscript -e 'library(covr); codecov()'
-  - Rscript -e 'lintr::lint_package()'

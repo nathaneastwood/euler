@@ -10,19 +10,16 @@
 #'
 #' @export
 euler_13 <- function(data) {
-
   cols <- ncol(data)
 
   col_total <- numeric(cols)
   for (i in cols:1) {
-
     val <- sum(data[, i]) + col_total[i]
     remainder <- val %% 10
     move <- (val - remainder) / 10
     if (i > 1) {
       col_total[i - 1] <- move
       col_total[i] <- remainder
-
     } else {
       col_total[i] <- val
     }
@@ -32,5 +29,4 @@ euler_13 <- function(data) {
   individual_numbers <- strsplit(grand_total, "")
   first_ten <- paste(unlist(individual_numbers)[1:10], collapse = "")
   as.numeric(first_ten)
-
 }
