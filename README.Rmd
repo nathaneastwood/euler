@@ -70,6 +70,7 @@ This package currently offers solutions to the following Euler problems:
 * [Problem 11](https://projecteuler.net/problem=11)
 * [Problem 12](https://projecteuler.net/problem=12)
 * [Problem 13](https://projecteuler.net/problem=13)
+* [Problem 14](https://projecteuler.net/problem=14)
 * [Problem 18](https://projecteuler.net/problem=18)
 * [Problem 67](https://projecteuler.net/problem=67)
 </details><break>

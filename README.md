@@ -1,4 +1,5 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
 euler <img src="inst/figures/euler.png" align="right" height="139" width="120" />
 =================================================================================
 
@@ -54,6 +55,7 @@ Problems solved so far
 This package currently offers solutions to the following Euler problems:
 
 <details>
+
 <summary>Click to expand</summary>
 
 -   [Problem 1](https://projecteuler.net/problem=1)
@@ -69,10 +71,12 @@ This package currently offers solutions to the following Euler problems:
 -   [Problem 11](https://projecteuler.net/problem=11)
 -   [Problem 12](https://projecteuler.net/problem=12)
 -   [Problem 13](https://projecteuler.net/problem=13)
+-   [Problem 14](https://projecteuler.net/problem=14)
 -   [Problem 18](https://projecteuler.net/problem=18)
 -   [Problem 67](https://projecteuler.net/problem=67)
 
 </details>
+
 <break>
 
 Explaining Methodology
