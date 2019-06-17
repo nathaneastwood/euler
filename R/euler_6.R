@@ -11,7 +11,7 @@
 #'
 #' @export
 euler_6 <- function(n) {
-  sum_of_the_squares <- sum((1:n)^2)
-  square_of_the_sum <- sum(1:n)^2
+  sum_of_the_squares <- sum((1:n) ^ 2)
+  square_of_the_sum <- sum(1:n) ^ 2
   square_of_the_sum - sum_of_the_squares
 }

@@ -67,9 +67,9 @@ euclid <- function(m, n, k = 1) {
     stop("m must be greater than n")
   }
   list(
-    a = k * (m^2 - n^2),
+    a = k * (m ^ 2 - n ^ 2),
     b = k * (2 * m * n),
-    c = k * (m^2 + n^2)
+    c = k * (m ^ 2 + n ^ 2)
   )
 }
 
@@ -93,7 +93,7 @@ esieve <- function(n) {
   i <- 1
   # Select p as the first prime number in the list, p = 2.
   p <- 2
-  while (p^2 <= n) {
+  while (p ^ 2 <= n) {
     # Remove all multiples of p from the l.
     l <- l[l == p | l %% p != 0]
     # set p equal to the next integer in l which has not been removed.

@@ -1,0 +1,1 @@
+linters: with_defaults(spaces_left_parentheses_linter = NULL)
