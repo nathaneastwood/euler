@@ -7,7 +7,8 @@
 euler_12(x)
 }
 \arguments{
-\item{x}{A number of interest to find the first triangle number with that many divisors.}
+\item{x}{A number of interest to find the first triangle number with that
+many divisors.}
 }
 \description{
 This is a solution to

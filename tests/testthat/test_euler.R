@@ -56,6 +56,10 @@ test_that("Test Euler problem 13", {
   expect_equal(euler_13(data_13), 5537376230)
 })
 
+test_that("Test Euler problem 14", {
+  expect_equal(euler_14(1e6), 837799L)
+})
+
 test_that("Test Euler problems 18 and 67", {
   expect_equal(euler_67(data_18), 1074)
   expect_equal(euler_67(data_67_test), 23)

@@ -15,7 +15,7 @@ euler_2 <- function(x) {
   for (i in 3:x) {
     newval <- vals[i - 1] + vals[i - 2]
     if (newval > x) {
-      break()
+      break
     } else {
       vals <- c(vals, newval)
     }
